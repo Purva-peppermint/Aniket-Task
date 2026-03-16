@@ -1,11 +1,11 @@
 #include "main.h"
 
-/* Function declarations */
+
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 void Error_Handler(void);
 
-/* Global variables */
+
 uint32_t blinkDelay = 1000;        // LED starts blinking slowly
 uint32_t previousTick = 0;         // stores last LED toggle time
 
